@@ -144,7 +144,6 @@ main section img {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
-
 }
 
 .book:hover, .join:hover {
@@ -167,8 +166,6 @@ main section img {
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    /*grid-template-rows: 1fr 3fr 1fr 1fr 0.5fr 2fr 0.5fr 1fr 1fr;*/
-
 }
 
 .home-title {
@@ -282,8 +279,4 @@ main section img {
     footer a {
         padding: 5px;
     }
-
-
 }
-
-
