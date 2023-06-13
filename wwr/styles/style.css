@@ -18,7 +18,7 @@ footer {
     background-color: #0174D1;
     color: white;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -265,7 +265,7 @@ main section img {
     background-color: #A2E1EA;
     line-height: 1.5em;
     padding: 35px;
-    width: 50%;
+    width: 30%;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
