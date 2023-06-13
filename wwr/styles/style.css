@@ -320,7 +320,7 @@ main section img {
     color: white;
 }
 
-/*Accordion */
+/*Accordion (FAQ) */
 .active, .accordion:hover {
     background-color: #3EBEFD;
     color: black;
@@ -331,7 +331,7 @@ main section img {
     color: black;
     cursor: pointer;
     padding: 20px;
-    width: 80%;
+    width: 70%;
     text-align: left;
     border: none;
     outline: none;
@@ -345,14 +345,12 @@ main section img {
     padding: 0 15px 10px;
     background-color: transparent;
     overflow: hidden;
-    width: 78%;
+    width: 68%;
     max-height: 0;
     transition: max-height 0.2s ease-out;
     display: block;
     margin: auto;
 }
-
-
 
 
 /* Mobile Design */
