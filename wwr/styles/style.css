@@ -45,7 +45,7 @@ footer p a:hover {
 
 footer .social img {
     padding-top: 15px;
-    border-radius: 5;
+    border-radius: 5px;
 }
 
 h2 {
@@ -289,7 +289,7 @@ main section img {
 
 #hero-contact-msg h1, #hero-contact-msg h4 {
     text-align: center;
-    color: black;
+    color: white;
 }
 
 /* FAQ Tweaks */
@@ -387,6 +387,22 @@ main section img {
     }
 
     #hero-faq-msg h1, #hero-faq-msg h4 {
+        text-align: center;
+        color: #3EBEFD;
+    }
+
+    .home-contact-title {
+        font-size: 26px;
+        font-weight: 1000;
+    }
+
+    #hero-contact-msg {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-top: 0px;
+    }
+
+    #hero-contact-msg h1, #hero-contact-msg h4 {
         text-align: center;
         color: #3EBEFD;
     }
