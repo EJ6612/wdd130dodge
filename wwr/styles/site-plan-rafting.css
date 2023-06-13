@@ -28,6 +28,38 @@ Fonts are separated by a & */
   --nav-hover-background-color: #3EBEFD;
 }
 
+/*Additional Code for new NavBar*/
+/* NavBar */
+.topnav {
+  background-color: #FED009;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #0174D1;
+  text-align: center;
+  padding: 35px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #3EBEFD;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
@@ -162,4 +194,26 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+
+
+@media screen and (max-width: 900px) {
+  .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
 }

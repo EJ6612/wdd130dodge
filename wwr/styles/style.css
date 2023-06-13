@@ -229,6 +229,69 @@ main section img {
     grid-row: 2/3;
 }
 
+/* NavBar */
+.topnav {
+    background-color: #FED009;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #0174D1;
+    text-align: center;
+    padding: 35px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #3EBEFD;
+    color: white;
+}
+  
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+  
+.topnav .icon {
+    display: none;
+}
+
+
+/* Contact Tweaks*/
+.contact-msg {
+    background-color: #A2E1EA;
+    line-height: 1.5em;
+    padding: 35px;
+    width: 50%;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+    display: block;
+    margin: 0 auto;
+}
+
+.home-contact-title {
+    color: #0174D1;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    font-weight: 1000;
+    margin-top: 10px;
+}
+
+#hero-contact-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 190px;
+}
+
+#hero-contact-msg h1, #hero-contact-msg h4 {
+    text-align: center;
+    color: black;
+}
+
 /* FAQ Tweaks */
 
 .home-faq-title {
@@ -299,15 +362,6 @@ main section img {
         height: auto;
     }
 
-    nav, footer {
-        flex-direction: column;
-    }
-
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-
     #hero, #hero-msg {
         margin-top: 0;
     }
@@ -352,6 +406,12 @@ main section img {
         margin: 0 auto;
     }
 
+    .contact-msg {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
     footer {
         margin-top: 25px;
     }
@@ -363,4 +423,23 @@ main section img {
     .accordion {
         width: 90%;
     }
+
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    
 }
