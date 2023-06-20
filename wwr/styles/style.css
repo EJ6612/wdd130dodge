@@ -223,7 +223,7 @@ textarea {
 }
 
 .contact-grid {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .home-grid {
@@ -520,6 +520,10 @@ textarea {
         float: none;
         display: block;
         text-align: left;
+    }
+
+    .contact-grid {
+        margin-top: 0px;
     }
     
 }
