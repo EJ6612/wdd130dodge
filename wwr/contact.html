@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="styles/style.css" >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <title>Elijah's White Water Rafting | Contact Us</title>
-</head>
-
-
-<body>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="styles/style.css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <title>Contact Us</title>
+        <link rel="icon" type="image/x-icon" href="../wwr/images/wwrlogo.png">
+    </head>
+  <body>
     <div id="content">
         <header>
             <a id="logo_link" href="index.html">
@@ -29,22 +28,31 @@
             </div>
         </header>
 
-        <div id="hero">
-            <div id="hero-box">
-                <img id="hero-img" src="images/contact/rafting16_1024.jpg" alt="people enjoying white water rafting">
-            </div>
-            <section id="hero-contact-msg">
-                <h1 class="home-contact-title">Contact Us!</h1>
-            </section>            
-        </div>
+        <main class="contact-grid">
+            <div id="feedback"></div>
 
-        <div>
-            <section class="contact-msg">
-                <h2>Contact Card:</h2>
-                <p>Phone: 1-800-555-5555</p>
-                <p>Email: contact@dryoar.com</p>
-            </section>
-        </div>
+            <form action="contact.html" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" name="user_email" />
+                    </li>
+                    <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button-box">
+                        <button class="button-submit" type="submit">Send your message</button>
+                    </li>
+                </ul>
+            </form>
+
+            <script src="scripts/feedback.js"></script>
+        </main>
 
 
         <footer>
